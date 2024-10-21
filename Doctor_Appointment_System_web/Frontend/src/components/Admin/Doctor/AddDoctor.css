@@ -1,0 +1,58 @@
+.add-doctor-container {
+    width: 90%;
+    max-width: 500px;
+    margin: auto;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: #f9f9f9;
+    margin-top: 20px;
+    background-color: #5ca7f8;
+}
+.add-doctor-container h1 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #444;
+    font-size: 1.8em;
+}
+.add-doctor-container label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: 600;
+    color: #555;
+}
+.add-doctor-container input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease;
+}
+.add-doctor-container input:focus {
+    border-color: #007bff;
+    outline: none;
+}
+.add-doctor-container button {
+    width: 100%;
+    padding: 12px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.add-doctor-container button:hover {
+    background-color: #218838;
+}
+.add-doctor-container p {
+    color: #dc3545;
+    font-weight: 600;
+    text-align: center;
+    margin: 20px 0;
+    font-size: 1em;
+}

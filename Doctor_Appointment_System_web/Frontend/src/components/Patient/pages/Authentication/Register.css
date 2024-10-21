@@ -1,0 +1,94 @@
+
+.register-container {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+  }
+  
+  .register-container h2 {
+    margin-bottom: 20px;
+    text-align: center; 
+    font-size: 24px;
+    color: #007bff; }
+  
+  .register-container form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .register-container label {
+    margin-bottom: 8px;
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .register-container input {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: border-color 0.3s, box-shadow 0.3s;
+  }
+  
+  .register-container input:hover,
+  .register-container input:focus {
+    border-color: #007bff; 
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.6); 
+  }
+  
+  .register-container .terms {
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #666; 
+  }
+  
+  .register-container button {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s, box-shadow 0.3s; 
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .register-container button:hover {
+    background-color: #0056b3;
+  }
+  
+  .register-container button:active {
+    animation: click-animation 0.4s; 
+  }
+  
+  @keyframes click-animation {
+    0% {
+      box-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+    }
+    100% {
+      box-shadow: 0 0 0 rgba(255, 255, 255, 0);
+    }
+  }
+  
+  .register-container p {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #666; 
+  }
+  
+  .register-container a {
+    color: #007bff; 
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none; 
+  }
+  
+  .register-container a:hover {
+    text-decoration: underline;
+    color: #0056b3;
+  }
+  

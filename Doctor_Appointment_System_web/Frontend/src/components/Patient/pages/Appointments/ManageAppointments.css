@@ -1,0 +1,129 @@
+.appointments-container {
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.search-input {
+  
+  padding: 10px;
+  max-width: 300px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.appointments-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #f5f1f1;
+}
+
+.appointments-table th, .appointments-table td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.appointments-table th {
+  background-color: #f4f4f4;
+}
+
+.appointments-table tr:hover {
+  background-color: #f1f1f1;
+}
+
+.btn-update, .btn-delete {
+  padding: 5px 10px;
+  margin: 2px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-update {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.btn-delete {
+  background-color: #f44336;
+  color: white;
+}
+
+.ReactModal__Overlay {
+  z-index: 1000;
+  background-color: rgba(0, 0, 0, 0.5); 
+  
+}
+
+
+.ReactModal__Content {
+  position: fixed; 
+ 
+  top:-10%;
+  left: 20%;
+  transform: translate(-50%, -50%); 
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  width: 100%; 
+  max-width: 800px; 
+  height: 100%; 
+  max-height: 1600px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  outline:auto;
+ 
+  margin-top: 350px;
+}
+
+.ReactModal__Content h2 {
+  margin-top: 0;
+  font-size: 18px;
+}
+
+.ReactModal__Content .form-group {
+  margin-bottom: 15px;
+ 
+}
+
+.ReactModal__Content label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.ReactModal__Content input[type="text"],
+.ReactModal__Content input[type="date"] {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.ReactModal__Content button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  color: #fff;
+  margin-right: 10px;
+}
+
+.ReactModal__Content button[type="submit"] {
+  background-color: #4CAF50; /* Green */
+}
+
+.ReactModal__Content button[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+.ReactModal__Content button[type="button"] {
+  background-color: #f44336; /* Red */
+}
+
+.ReactModal__Content button[type="button"]:hover {
+  background-color: #e53935;
+}

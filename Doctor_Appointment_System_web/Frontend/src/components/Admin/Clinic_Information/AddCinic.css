@@ -1,0 +1,89 @@
+.add-clinic-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #f4f4f4;
+    border-radius: 8px;
+    margin-bottom: 180px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.add-clinic-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.add-clinic-form,
+.update-clinic-form {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  
+}
+
+.add-clinic-form .ant-form-item,
+.update-clinic-form .ant-form-item {
+    margin-bottom: 15px;
+    
+}
+
+.add-clinic-form .ant-form-item label,
+.update-clinic-form .ant-form-item label {
+    font-weight: bold;
+}
+
+.add-clinic-form .ant-upload,
+.update-clinic-form .ant-upload {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.add-clinic-form .ant-upload .ant-btn,
+.update-clinic-form .ant-upload .ant-btn {
+    margin-right: 10px;
+}
+
+.add-clinic-form .ant-upload-list-item,
+.update-clinic-form .ant-upload-list-item {
+    margin: 5px 0;
+}
+
+.add-clinic-form .ant-btn,
+.update-clinic-form .ant-btn {
+    width: 100%;
+}
+
+.ant-table {
+    margin-top: 20px;
+}
+
+.ant-table .ant-table-thead > tr > th {
+    background: #f4f4f4;
+    font-weight: bold;
+}
+
+.ant-table .ant-table-tbody > tr > td {
+    vertical-align: middle;
+}
+
+.ant-modal {
+    border-radius: 8px;
+}
+
+.ant-modal-header {
+    border-bottom: 1px solid #ddd;
+}
+
+.ant-modal-body {
+    padding: 20px;
+}
+
+.ant-modal-footer {
+    text-align: right;
+}
+
+.ant-modal-footer .ant-btn {
+    margin-left: 10px;
+}
